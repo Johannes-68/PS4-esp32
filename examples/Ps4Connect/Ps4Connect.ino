@@ -6,7 +6,7 @@ void setup() {
   // Replace the "1a:2b:3c:01:01:01" with the MAC address
   // the controller wants to pair to
   // Note: MAC address must be unicast
-  PS4.begin("1a:2b:3c:01:01:01");
+  PS4.begin("01:02:03:04:05:07");
   Serial.println("Ready.");
 }
 
